@@ -1,5 +1,5 @@
 ## Build QAI AppBuilder for WoS device
-### Build QAI AppBuilder from source with Visual Studio 2022 on WoS device:<br>
+### Build QAI AppBuilder from source codes with Visual Studio 2022 on WoS device:<br>
 - Install Qualcomm® AI Runtime SDK:
   - https://softwarecenter.qualcomm.com/#/catalog/item/Qualcomm_AI_Runtime_SDK
 - Update the Genie library
