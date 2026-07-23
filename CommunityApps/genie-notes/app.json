@@ -1,0 +1,53 @@
+{
+  "$schema": "../schema/app.schema.json",
+  "name": "Genie Notes",
+  "slug": "genie-notes",
+  "version": "1.0.0",
+  "author": {
+    "name": "Community Example",
+    "github": "qualcomm",
+    "email": ""
+  },
+  "description": {
+    "short": "Summarize and tidy your meeting notes on-device with a local Genie LLM — private, offline, one command.",
+    "long": "Genie Notes is a tiny command-line app that reads a plain-text note file, sends it to a locally running Genie LLM (via the OpenAI-compatible GenieAPIService), and prints a clean summary plus action items. It is a minimal reference for the QAI AppBuilder Genie chat-completions flow and doubles as a copy-me example for the community gallery. Your notes never leave the device."
+  },
+  "category": "genai",
+  "tags": ["genie", "llm", "summarization", "offline", "cli"],
+  "license": "MIT",
+  "homepage": "",
+  "source": "https://github.com/qualcomm/qai-appbuilder/discussions/categories/show-and-tell",
+  "screenshot": "assets/screenshot.png",
+  "screenshots": [],
+  "demoVideo": "",
+  "models": [
+    {
+      "name": "llama-3.2-3b-instruct",
+      "type": "llm",
+      "runtime": "QNN",
+      "precision": "int4",
+      "source": "https://aihub.qualcomm.com/",
+      "sizeMB": 1900
+    }
+  ],
+  "requirements": {
+    "os": ["windows-arm64"],
+    "python": ">=3.10",
+    "qai_appbuilder": ">=2.24.0",
+    "dependencies": [],
+    "hardware": {
+      "npu": "Snapdragon X Elite / X Plus",
+      "minRamGB": 16
+    }
+  },
+  "run": {
+    "setup": "pip install -r requirements.txt",
+    "windows": "start.bat",
+    "command": "python main.py",
+    "entrypoint": "main.py",
+    "port": null
+  },
+  "official": false,
+  "createdAt": "2026-07-22",
+  "updatedAt": "2026-07-22"
+}

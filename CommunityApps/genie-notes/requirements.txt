@@ -1,0 +1,6 @@
+# Core dependency — on-device NPU inference via QAI AppBuilder.
+qai_appbuilder>=2.24.0
+
+# This example talks to the local Genie service over HTTP using only the Python
+# standard library (urllib), so no extra packages are required. If you prefer the
+# `requests` library or the OpenAI SDK, add it here.

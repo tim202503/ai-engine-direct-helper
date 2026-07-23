@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-07-22",
+  "count": 2,
+  "discussions": "https://github.com/qualcomm/qai-appbuilder/discussions/categories/show-and-tell",
+  "issues": "https://github.com/qualcomm/qai-appbuilder/issues",
+  "contributors": [
+    {
+      "name": "Community Example",
+      "github": "qualcomm",
+      "apps": 1
+    },
+    {
+      "name": "Tim",
+      "github": "tim202503",
+      "apps": 1
+    }
+  ],
+  "apps": [
+    {
+      "slug": "genie-notes",
+      "name": "Genie Notes",
+      "path": "genie-notes",
+      "category": "genai",
+      "official": false,
+      "author": "Community Example",
+      "authorGithub": "qualcomm",
+      "short": "Summarize and tidy your meeting notes on-device with a local Genie LLM — private, offline, one command.",
+      "tags": [
+        "genie",
+        "llm",
+        "summarization",
+        "offline",
+        "cli"
+      ],
+      "screenshot": "genie-notes/assets/screenshot.png",
+      "run": "python main.py",
+      "homepage": "",
+      "source": "https://github.com/qualcomm/qai-appbuilder/discussions/categories/show-and-tell"
+    },
+    {
+      "slug": "track-anything",
+      "name": "Track-Anything",
+      "path": "track-anything",
+      "category": "vision",
+      "official": false,
+      "author": "Tim",
+      "authorGithub": "tim202503",
+      "short": "Click a target in any video and track it frame-by-frame with XMem segmentation, running fully on the Snapdragon NPU.",
+      "tags": [
+        "segmentation",
+        "video",
+        "tracking",
+        "xmem",
+        "onnx",
+        "offline"
+      ],
+      "screenshot": "track-anything/assets/screenshot.png",
+      "run": "python main.py",
+      "homepage": "https://huggingface.co/qualcomm/Track-Anything",
+      "source": "https://github.com/tim202503/ai-engine-direct-helper/discussions/1"
+    }
+  ]
+}

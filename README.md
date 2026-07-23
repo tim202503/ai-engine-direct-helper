@@ -283,6 +283,25 @@ See [samples/README.md](samples/README.md) for the full guide including environm
 
 ---
 
+## Community Apps
+
+On-device AI apps built by **the community** on top of QAI AppBuilder. Anyone can add one — the whole gallery is **auto-generated** from each app's `app.json` (no hand-maintained lists), so submitting is as easy as copying a template and opening a PR.
+
+- 🖼️ **Gallery wall** — a visual "look how many people are building" page: [`CommunityApps/index.html`](CommunityApps/index.html)
+- 📇 **App index & quick start**: [`CommunityApps/README.md`](CommunityApps/README.md)
+- 🧩 **Copy-me template**: [`CommunityApps/_template/`](CommunityApps/_template/)
+- 📝 **Submission guide & review criteria**: [docs/community.md](docs/community.md)
+
+```bash
+cd CommunityApps
+python build_gallery.py --date <today>   # auto-discover apps → apps.json + index table
+python -m http.server 8000               # open http://localhost:8000/index.html
+```
+
+> 💬 Built something? Show it off in [Discussions → Show & Tell](https://github.com/qualcomm/qai-appbuilder/discussions/categories/show-and-tell) or open an [Issue](https://github.com/qualcomm/qai-appbuilder/issues) — lower barrier than a PR, and the fastest way to get on the wall. See the [Awesome list](https://github.com/tim202503/ai-engine-direct-helper/discussions/1) for more community projects.
+
+---
+
 ## Tools
 
 ### 1. QAI AppBuilder Launcher
